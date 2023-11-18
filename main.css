@@ -31,8 +31,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #000;
-    background: #000;
 }
 
 .logo img {
@@ -41,11 +39,12 @@ body {
     width: 100%;
     height: auto;
     max-width: 200px;
-    background: #000;
+    background-color: #0c0c0c;
     border-radius: 9px;
     margin-top: 20px;
     padding: 10px;
-    border: 1px solid #fff;
+    border: 1px solid #ffffffc4;
+    box-shadow: 0 0 20px 10px #ffffff73;
 }
 
 .overlay {
@@ -95,7 +94,7 @@ body {
         font-size: 30px;
     }
     .details {
-        font-size: 20px;
+        font-size: 20git apx;
     }
     
   }
