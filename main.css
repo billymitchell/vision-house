@@ -2,7 +2,7 @@
 
 * {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 40px;
+    font-size: 70px;
     font-weight: 300;
 }
 
@@ -11,11 +11,12 @@
 }
 
 .description {
+    font-size: 50px;
+
 
 }
-
 .details {
-
+    font-size: 50px;
 }
 
 
@@ -81,3 +82,8 @@ body {
     align-items: center;
 }
 
+.text-content .wrapper {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    text-align: center;
+}
