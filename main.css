@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+* {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.title {
+
+}
+
+.description {
+
+}
+
+.details {
+
+}
+
+
+body {
+ background-color: #007da0;
+ margin: 0;
+ color: hwb(0 100% 0% / 0.883);
+ text-shadow: 0 0 2px #FFF, 0 0 4px #FFF, 0 0 6px #FFF, 0 0 8px #01fdfd, 0 0 10px #01fdfd, 2px 2px 2px hsla(180, 99%, 50%, 0.562);
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #000;
+    background: #000;
+}
+
+.logo img {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    background: #000;
+    border-radius: 9px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.gid-container {
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+}
+
+.grid {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.text-content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
