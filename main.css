@@ -17,6 +17,10 @@
     font-size: 30px;
 }
 
+.details main-ig {
+    margin-top: 20px; font-size: 40px;
+} 
+
 
 body {
  background-color: #2a2a2a;
@@ -131,5 +135,7 @@ a {
     .details {
         font-size: 20px;
     }
-    
+    .details main-ig {
+        font-size: 30px;
+    }
   }
